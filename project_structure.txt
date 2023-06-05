@@ -1,0 +1,33 @@
+fastapi-project
+├── migrations/     #   Alembic migration trace
+├── src #   Main directory
+│   ├── auth
+│   │   ├── config.py  # Local configurations
+│   │   ├── dependencies.py
+│   │   ├── models.py  # Database models
+│   │   ├── router.py
+│   │   ├── schemas.py  # Auth Pydantic models
+│   │   ├── service.py
+│   │   └── utils.py
+│   ├── operations
+│   │   ├── config.py  # Local configurations
+│   │   ├── dependencies.py
+│   │   ├── models.py  # Database models
+│   │   ├── router.py
+│   │   ├── schemas.py  # Auth Pydantic models
+│   │   ├── service.py
+│   │   └── utils.py
+│   ├── config.py  # Global configurations
+│   ├── models.py  # Global models
+│   ├── db.py  # Database connect. related stuff
+│   └── main.py
+├── tests/
+│   ├── auth
+│   ├── operations
+│   ├── conftest.py
+├── .env
+├── req.txt
+├── .gitignore
+├── project_structure.txt
+├── pyproject.toml
+└── alembic.ini
